@@ -1,6 +1,6 @@
 import ClassRoom from "./0-classroom";
 
-/*
+/**
  * function to create objects
  */
 export default function initializeRooms() {
