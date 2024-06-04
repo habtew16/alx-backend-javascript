@@ -1,4 +1,6 @@
-// 0-console.js
+/**
+ * function to console message
+ */
 
 function displayMessage(message) {
     console.log(message);
