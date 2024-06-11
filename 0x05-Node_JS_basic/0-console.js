@@ -1,9 +1,10 @@
 /**
- * function to console message
- * @param {String} message print
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * @author Habtamu  <https://github.com/habtew16>
  */
-const displayMessage = (message) => {
-    console.log(message);
-}
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
 module.exports = displayMessage;
