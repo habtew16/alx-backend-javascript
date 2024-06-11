@@ -2,6 +2,8 @@ const fs = require('fs')
 
 /**
  * counts the students in csv
+ * @param {String} dataPath The path to the CSV data file.
+ * @author habtew
  */
 const countStudents = (dataPath) => {
   if (!fs.existsSync(dataPath)) {
